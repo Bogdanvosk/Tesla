@@ -147,7 +147,7 @@ body {
 	top: -100%;
 	left: 0;
 	width: 100%;
-	transition: .5s ease;
+	transition: all .4s;
 }
 
 
@@ -156,7 +156,7 @@ body {
 	height: 50px;
 	background-color: transparent;
 	position: absolute;
-	right: 25px;
+	right: 15px;
 	top: 31px;
 	cursor: pointer;
 	transition: all .4s;
