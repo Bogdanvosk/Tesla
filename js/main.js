@@ -18,12 +18,10 @@ $(document).ready(function () {
 
 	menuBtn.addEventListener('click', () => {
 		menuBlock.classList.add('active');
-		sliderDots.classList.add('hidden');
 	})
 
 	closeBtn.addEventListener('click', () => {
 		menuBlock.classList.remove('active');
-		sliderDots.classList.remove('hidden');
 	})
-	
+
 });

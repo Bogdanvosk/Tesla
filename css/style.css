@@ -147,6 +147,7 @@ body {
 	top: -100%;
 	left: 0;
 	width: 100%;
+	z-index: 7;
 	transition: all .4s;
 }
 
@@ -210,10 +211,6 @@ body {
 }
 
 /* ? Utils */
-.hidden {
-	display: none;
-}
-
 .active {
 	top: 0;
 }
