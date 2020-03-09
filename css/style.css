@@ -261,10 +261,13 @@ body {
 	top: 56px;
 }
 
+
 /* ! Video */
-.video img{
+.video{
 	margin-bottom: 100px;
+	
 }
+
 
 /* ! Benefits */
 .benefits-wrapper {
