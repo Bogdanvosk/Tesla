@@ -429,3 +429,13 @@ body {
 		margin: -38px auto 0;
 	}
 }
+
+@media (max-width: 820px) {
+	.stats-items {
+		flex-wrap: wrap;
+	}
+
+	.stats-item {
+		padding: 40px;
+	}
+}
