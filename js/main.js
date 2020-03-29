@@ -47,7 +47,7 @@ $(document).ready(function() {
     });
 
     $('.design-row__item').addClass('hidden').viewportChecker({
-        classToAdd: 'visibility animated zoomIn',
+        classToAdd: 'visibility animated bounceIn',
         offset: 100
     });
 

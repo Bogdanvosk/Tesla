@@ -352,7 +352,7 @@ body {
 }
 
 .design-row__item {
-	opacity: 1;
+	opacity: 0;
 	position: relative;
 	max-width: 570px;
 	width: 100%;
