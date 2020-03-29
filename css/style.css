@@ -25,6 +25,10 @@ body {
 	font-weight: 400;
 }
 
+.initial {
+	position: initial;
+}
+
 .container {
 	max-width: 1230px;
 	padding: 0 15px;

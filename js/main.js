@@ -41,8 +41,18 @@ $(document).ready(function() {
         offset: 100
     });
 
-    $('.benefits-row').addClass('hidden').viewportChecker({
+    $('.benefits-row__image').addClass('hidden').viewportChecker({
         classToAdd: 'visibility animated fadeInRight',
+        offset: 100
+    });
+
+    $('.benefits-row-content__title').addClass('hidden').viewportChecker({
+        classToAdd: 'visibility animated fadeInRight delay-1s initial',
+        offset: 100
+    });
+
+    $('.benefits-row-content__text').addClass('hidden').viewportChecker({
+        classToAdd: 'visibility animated fadeInRight delay-1s ',
         offset: 100
     });
 
