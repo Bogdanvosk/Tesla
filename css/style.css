@@ -31,6 +31,14 @@ body {
 	margin: 0 auto;
 }
 
+.visibility {
+	opacity: 1;
+}
+
+.hidden {
+	opacity: 0;
+}
+
 /* ! Header */
 .header {
 	height: 100vh;
@@ -167,6 +175,10 @@ body {
 	top: 31px;
 	cursor: pointer;
 	transition: all .4s;
+}
+
+.close-btn:hover {
+	transform: scale(1.2);
 }
 
 .close-btn::after,
@@ -316,7 +328,7 @@ body {
 }
 
 .reverse .benefits-row__image {
-	margin-right: 60px;
+	margin-right: 130px;
 }
 
 .reverse .benefits-row-content__title {
@@ -340,6 +352,7 @@ body {
 }
 
 .design-row__item {
+	opacity: 1;
 	position: relative;
 	max-width: 570px;
 	width: 100%;
